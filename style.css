@@ -23,6 +23,7 @@
 body {
     background-image: url("img/fondo.jpg");
     background-size: cover;
+    /* que cubra toda la pantalla */
     background-repeat: no-repeat;
     /* que no se repita */
     background-attachment: fixed;
