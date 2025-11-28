@@ -40,10 +40,11 @@
 }
 
 .header-profile .profile-img {
-    width: 75px;
-    height: 75px;
-    border-radius: 50%;
-    border: 2px solid #fff;
+    width: 100px;  /* Ajustamos el tamaño de la imagen */
+    height: 100px;
+    border-radius: 50%;  /* Hace que la imagen tenga forma circular */
+    border: 2px solid #fff; /* Borde blanco alrededor de la imagen */
+    object-fit: cover;  /* Asegura que la imagen se recorte de manera uniforme */
 }
 
 .descripcion {
